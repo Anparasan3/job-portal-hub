@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bun install*)",
+      "Bash(bun add*)",
+      "Bash(bun remove*)",
+      "Bash(bun run*)",
+      "Bash(bun dev*)",
+      "Bash(bun build*)",
+      "Bash(bun x*)",
+      "Bash(bunx*)",
+      "Bash(./node_modules/.bin/oxlint*)",
+      "Bash(oxlint*)",
+      "Bash(./node_modules/.bin/oxfmt*)",
+      "Bash(oxfmt*)",
+      "Bash(tsc*)",
+      "Bash(git status*)",
+      "Bash(git diff*)",
+      "Bash(git log*)",
+      "Bash(gh api*)",
+      "Bash(gh repo list*)",
+      "Bash(gh auth status*)",
+      "Bash(gh pr view*)",
+      "Bash(gh pr list*)",
+      "Bash(gh issue view*)",
+      "Bash(gh issue list*)"
+    ]
+  }
+}

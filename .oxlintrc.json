@@ -1,0 +1,18 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oxc-project/oxc/main/crates/oxc_linter/src/rules/oxlintrc.schema.json",
+  "plugins": ["react", "jsx-a11y", "typescript", "unicorn", "nextjs"],
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "ignorePatterns": [".next/**", "node_modules/**"],
+  "rules": {
+    "no-console": "warn",
+    "eqeqeq": "error",
+    "no-var": "error",
+    "prefer-const": "error",
+    "typescript/no-explicit-any": "warn",
+    "typescript/consistent-type-definitions": ["warn", "interface"],
+    "unicorn/no-array-for-each": "error"
+  }
+}
